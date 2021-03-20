@@ -3,15 +3,6 @@ package com.gestankbratwurst.annotationscheduling.handling;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/*******************************************************
- * Copyright (C) Gestankbratwurst suotokka@gmail.com
- *
- * This file is part of AnnotationScheduling and was created at the 20.03.2021
- *
- * AnnotationScheduling can not be copied and/or distributed without the express
- * permission of the owner.
- *
- */
 public class ScheduledMethod {
 
   private final Object target;

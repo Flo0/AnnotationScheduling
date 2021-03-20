@@ -7,15 +7,6 @@ import java.util.Map;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 
-/*******************************************************
- * Copyright (C) Gestankbratwurst suotokka@gmail.com
- *
- * This file is part of AnnotationScheduling and was created at the 20.03.2021
- *
- * AnnotationScheduling can not be copied and/or distributed without the express
- * permission of the owner.
- *
- */
 public class InvocationScheduler {
 
   private static final Map<Plugin, InvocationRunnable> PLUGIN_RUNNABLES = new HashMap<>();

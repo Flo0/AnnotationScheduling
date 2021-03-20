@@ -4,22 +4,12 @@ import com.google.common.base.Preconditions;
 import java.util.ArrayList;
 import java.util.Collection;
 
-
-/*******************************************************
- * Copyright (C) Gestankbratwurst suotokka@gmail.com
- *
- * This file is part of AnnotationScheduling and was created at the 20.03.2021
- *
- * AnnotationScheduling can not be copied and/or distributed without the express
- * permission of the owner.
- *
- */
 public class InvocationRunnable implements Runnable {
 
   private final ArrayList<ScheduledMethod> invocationMethods = new ArrayList<>();
 
   protected InvocationRunnable() {
-    
+
   }
 
   protected void addMethod(ScheduledMethod method) {
